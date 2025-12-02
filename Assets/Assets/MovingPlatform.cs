@@ -1,57 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public Transform PointA; 
-    public Transform PointB ;
+    public Transform pointA;
+    public Transform pointB;
+    public float speed = 2f;
 
-    public float speed;
-    private bool At0B ;
+    private Vector3 target;
 
-    private Vector3 targetPosition ;
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        
+        target = pointB.position;
     }
 
-void Update()
-{
-    //The platform should always start its journey from Point A to Point B.
-    //Once At0B eventually becomes false, the platform will begin moving back towards Point A
-    if (At0B == true)
+    void Update()
     {
-        targetPosition = PointA.position;
-    }
-    else
-    {
-        targetPosition = PointB.position;
-    }
+        // Move platform towards target
+        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-    //Move towards target position on Y-axis
-    Vector3 newPosition = transform.position;
-    newPosition.y = Mathf.MoveTowards(transform.position.y, targetPosition.y, speed * Time.deltaTime);
-
-    transform.position = newPosition;
-
-    //Switch direction when closing in on target
-    if (Mathf.Abs(transform.position.y - targetPosition.y) < 0.1f)
-    {
-        At0B = !At0B;     //if true, become false. If false, become true
+        // When platform reaches target, switch target
+        if (Vector3.Distance(transform.position, target) < 0.1f)
+        {
+            target = (target == pointA.position) ? pointB.position : pointA.position;
+        }
     }
-}
-//To make the character sit still on the platform, we will make him a child as soon as he stands on it
-void OnCollisionEnter2D(Collision2D collision)
-{
-    if (collision.gameObject.tag == "Player")
-    {
-        //Make the platform a parent
-        collision.transform.SetParent(null);
-    }
-}
-
 }
