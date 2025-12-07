@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: a9d0552889c45bc4d95700de7d7ff187
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4078958551426677462
+    second: Walk To Left_0
+  - first:
+      213: -1541508442950069009
+    second: Walk To Left_1
+  - first:
+      213: -1514465660176844395
+    second: Walk To Left_2
+  - first:
+      213: 8995491469520654598
+    second: Walk To Left_3
+  - first:
+      213: 3011545633506009130
+    second: Walk To Left_4
+  - first:
+      213: 5482669517721115559
+    second: Walk To Left_5
+  - first:
+      213: -4353894282915754528
+    second: Walk To Left_6
+  - first:
+      213: 9213572382234311235
+    second: Walk To Left_7
+  - first:
+      213: 8451908446367713814
+    second: Walk To Left_8
+  - first:
+      213: -6626284887712868402
+    second: Walk To Left_9
+  - first:
+      213: -842054828742746148
+    second: Walk To Left_10
+  - first:
+      213: 4863006580440741127
+    second: Walk To Left_11
+  - first:
+      213: -1294049712736294917
+    second: Walk To Left_12
+  - first:
+      213: -1913278238984537784
+    second: Walk To Left_13
+  - first:
+      213: 5246165220852828107
+    second: Walk To Left_14
+  - first:
+      213: 6886256569644154104
+    second: Walk To Left_15
+  - first:
+      213: 3423315293896999468
+    second: Walk To Left_16
+  - first:
+      213: -6702287378053171850
+    second: Walk To Left_17
+  - first:
+      213: -5067426517964018433
+    second: Walk To Left_18
+  - first:
+      213: -7822574174982359885
+    second: Walk To Left_19
+  - first:
+      213: 1667043982944010797
+    second: Walk To Left_20
+  - first:
+      213: 8005964628894051047
+    second: Walk To Left_21
+  - first:
+      213: -3495781395419351918
+    second: Walk To Left_22
+  - first:
+      213: -4748510642938957923
+    second: Walk To Left_23
+  - first:
+      213: -7144121110644758066
+    second: Walk To Left_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk To Left_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2054
+        width: 442
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da3457f03f5b9830800000000000000
+      internalID: 4078958551426677462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_1
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 2054
+        width: 410
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe412b70d367b9ae0800000000000000
+      internalID: -1541508442950069009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_2
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 2057
+        width: 448
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599b1ac81898bfae0800000000000000
+      internalID: -1514465660176844395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_3
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 2061
+        width: 449
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601d5d4d4d766dc70800000000000000
+      internalID: 8995491469520654598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_4
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 2059
+        width: 406
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a20210e3cc82bc920800000000000000
+      internalID: 3011545633506009130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1547
+        width: 461
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab11a0c0ea561c40800000000000000
+      internalID: 5482669517721115559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1547
+        width: 485
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edc335b73cd393c0800000000000000
+      internalID: -4353894282915754528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_7
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1547
+        width: 489
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34afc6b144f2ddf70800000000000000
+      internalID: 9213572382234311235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_8
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1550
+        width: 497
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0fdba3f53b4570800000000000000
+      internalID: 8451908446367713814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_9
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1548
+        width: 496
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d55f8005ba04a0800000000000000
+      internalID: -6626284887712868402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1031
+        width: 482
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfd26b389b6054f0800000000000000
+      internalID: -842054828742746148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_11
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1030
+        width: 476
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705be8738bedc7340800000000000000
+      internalID: 4863006580440741127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_12
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1030
+        width: 439
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf728a674ac9a0ee0800000000000000
+      internalID: -1294049712736294917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_13
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 1030
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84977d0249ba275e0800000000000000
+      internalID: -1913278238984537784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_14
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 1031
+        width: 421
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc701f5197f1ec840800000000000000
+      internalID: 5246165220852828107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 522
+        width: 422
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcf6d97dd5e09f50800000000000000
+      internalID: 6886256569644154104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_16
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 522
+        width: 403
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2284ee4f1f028f20800000000000000
+      internalID: 3423315293896999468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_17
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 523
+        width: 464
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6757e80d321bcf2a0800000000000000
+      internalID: -6702287378053171850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_18
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 523
+        width: 487
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc2c572e62eca9b0800000000000000
+      internalID: -5067426517964018433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_19
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 524
+        width: 490
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4380fcb32a07390800000000000000
+      internalID: -7822574174982359885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14
+        width: 496
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22845c8ba7822710800000000000000
+      internalID: 1667043982944010797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_21
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 10
+        width: 492
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea629d9966ea1f60800000000000000
+      internalID: 8005964628894051047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_22
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 6
+        width: 482
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2943c91a75d7c7fc0800000000000000
+      internalID: -3495781395419351918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_23
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 6
+        width: 475
+        height: 495
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f267b9ab6e91eb0800000000000000
+      internalID: -4748510642938957923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk To Left_24
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 6
+        width: 436
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec966a773bbfadc90800000000000000
+      internalID: -7144121110644758066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Walk To Left_0: 4078958551426677462
+      Walk To Left_1: -1541508442950069009
+      Walk To Left_10: -842054828742746148
+      Walk To Left_11: 4863006580440741127
+      Walk To Left_12: -1294049712736294917
+      Walk To Left_13: -1913278238984537784
+      Walk To Left_14: 5246165220852828107
+      Walk To Left_15: 6886256569644154104
+      Walk To Left_16: 3423315293896999468
+      Walk To Left_17: -6702287378053171850
+      Walk To Left_18: -5067426517964018433
+      Walk To Left_19: -7822574174982359885
+      Walk To Left_2: -1514465660176844395
+      Walk To Left_20: 1667043982944010797
+      Walk To Left_21: 8005964628894051047
+      Walk To Left_22: -3495781395419351918
+      Walk To Left_23: -4748510642938957923
+      Walk To Left_24: -7144121110644758066
+      Walk To Left_3: 8995491469520654598
+      Walk To Left_4: 3011545633506009130
+      Walk To Left_5: 5482669517721115559
+      Walk To Left_6: -4353894282915754528
+      Walk To Left_7: 9213572382234311235
+      Walk To Left_8: 8451908446367713814
+      Walk To Left_9: -6626284887712868402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

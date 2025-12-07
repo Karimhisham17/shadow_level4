@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: cbe547a0eaf8fa149989b65c36018482
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2276163769486025917
+    second: Fly In Place_0
+  - first:
+      213: 7456289359820217661
+    second: Fly In Place_1
+  - first:
+      213: -4630169513903728767
+    second: Fly In Place_2
+  - first:
+      213: 6574344536456675424
+    second: Fly In Place_3
+  - first:
+      213: 5279551059343707576
+    second: Fly In Place_4
+  - first:
+      213: 419934235531133051
+    second: Fly In Place_5
+  - first:
+      213: -1121471837723579381
+    second: Fly In Place_6
+  - first:
+      213: -1590460061345839957
+    second: Fly In Place_7
+  - first:
+      213: -8521053168774721385
+    second: Fly In Place_8
+  - first:
+      213: 3099385761328788556
+    second: Fly In Place_9
+  - first:
+      213: -5426514146701254228
+    second: Fly In Place_10
+  - first:
+      213: 4020451693069695219
+    second: Fly In Place_11
+  - first:
+      213: 5792108352313694345
+    second: Fly In Place_12
+  - first:
+      213: -3662389802685513145
+    second: Fly In Place_13
+  - first:
+      213: -1758287465482568957
+    second: Fly In Place_14
+  - first:
+      213: -4298232512294910413
+    second: Fly In Place_15
+  - first:
+      213: 5664866126117847978
+    second: Fly In Place_16
+  - first:
+      213: -4956328349859014214
+    second: Fly In Place_17
+  - first:
+      213: -4260661495551815417
+    second: Fly In Place_18
+  - first:
+      213: 5283088830683405805
+    second: Fly In Place_19
+  - first:
+      213: 4696741115057987024
+    second: Fly In Place_20
+  - first:
+      213: -4364540887383244175
+    second: Fly In Place_21
+  - first:
+      213: -9175022143469368597
+    second: Fly In Place_22
+  - first:
+      213: 2439300767630330006
+    second: Fly In Place_23
+  - first:
+      213: 5400991122242958910
+    second: Fly In Place_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fly In Place_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1728
+        width: 267
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddff8c732afa36c4783e4d7011e5349c
+      internalID: 2006184553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_1
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1733
+        width: 403
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0273149256054cb66e74da55dd331
+      internalID: 1188298624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_2
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1735
+        width: 452
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7696b9a477770479b456d06dd7a254
+      internalID: 355538999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_3
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 1748
+        width: 585
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576e1675d240b1a46b6cb6e30763eafd
+      internalID: -122823390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_4
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1755
+        width: 474
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d08771c1f63aa4d820db0f14f1d5ad
+      internalID: 781776035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1323
+        width: 428
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce862fac3435e32499f8f18ac4f8bd3b
+      internalID: -595557394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1306
+        width: 327
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7d77ac3b150244d802d8422aed1d6a
+      internalID: -148352804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1329
+        width: 414
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951538158efdedb4caae6e6a9c62d55c
+      internalID: 1949820072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_8
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1323
+        width: 515
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773ee5db6661b1745a6dd5e819c09d2a
+      internalID: 1778475693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_9
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 1317
+        width: 534
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72b76cc6ccd7eb4682e7ad993b002c0
+      internalID: 1576060759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 885
+        width: 475
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e546ca0be313349826100b2fe17ba2
+      internalID: -1763188380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_11
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 878
+        width: 322
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb50878b145ee3468f5bdb34a49f183
+      internalID: 894571157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_12
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 877
+        width: 269
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98202f303154ad441a42dab956e390d2
+      internalID: -1314517850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_13
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 875
+        width: 266
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64eeb667a72d78d4ebce23332caf1e7d
+      internalID: 406878928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_14
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 882
+        width: 454
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5ce1c536f74784f907496738ffbb02
+      internalID: -387968228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 463
+        width: 549
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b883801a1ec9847b038f7b6a0feb85
+      internalID: 404302047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_16
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 469
+        width: 586
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1968f94d9f324884f96f55e9d6fea448
+      internalID: 120093986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_17
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 469
+        width: 426
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d9a5d35a699df40a578d5d97373e62
+      internalID: 1883481002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_18
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 449
+        width: 325
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737acd23411a5fe4fa24c3035a406dfb
+      internalID: 1670870121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_19
+      rect:
+        serializedVersion: 2
+        x: 2494
+        y: 453
+        width: 327
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1a07fae5ee1984b96de0a4ae273419
+      internalID: -1653419791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 46
+        width: 523
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265cb5987e95730429ab2a20795987ed
+      internalID: 2074089848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_21
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 40
+        width: 534
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df3378d586ebce40a88cadd556f98d5
+      internalID: 25061872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_22
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 34
+        width: 473
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5113dc7e55177984f84b916704a05681
+      internalID: -1559569409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_23
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 27
+        width: 320
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea106990259440240ad631aa081389a3
+      internalID: -1930066812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fly In Place_24
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 24
+        width: 270
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd54a17351b6db46b01e53e690dc360
+      internalID: 993335934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e72431793d9007e47ac1d10ec607ae52
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fly In Place_0: 2006184553
+      Fly In Place_1: 1188298624
+      Fly In Place_10: -1763188380
+      Fly In Place_11: 894571157
+      Fly In Place_12: -1314517850
+      Fly In Place_13: 406878928
+      Fly In Place_14: -387968228
+      Fly In Place_15: 404302047
+      Fly In Place_16: 120093986
+      Fly In Place_17: 1883481002
+      Fly In Place_18: 1670870121
+      Fly In Place_19: -1653419791
+      Fly In Place_2: 355538999
+      Fly In Place_20: 2074089848
+      Fly In Place_21: 25061872
+      Fly In Place_22: -1559569409
+      Fly In Place_23: -1930066812
+      Fly In Place_24: 993335934
+      Fly In Place_3: -122823390
+      Fly In Place_4: 781776035
+      Fly In Place_5: -595557394
+      Fly In Place_6: -148352804
+      Fly In Place_7: 1949820072
+      Fly In Place_8: 1778475693
+      Fly In Place_9: 1576060759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
