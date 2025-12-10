@@ -4,28 +4,69 @@ using UnityEngine;
 
 public class NPCDialogue : MonoBehaviour
 {
-    // التعديل هنا: غيرنا النوع من Dialogue إلى DialogueManager
     public DialogueManager dialogueManager;
+
+    [Header("Movement Settings")]
+    public float moveSpeed = 3f; // سرعة المشي
+    private bool isWalking = false; // متغير عشان نعرف هو بيمشي ولا لأ
+    private SpriteRenderer sr;
+
+    void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
+
+    void Update()
+    {
+        // لو الحوار خلص والمتغير ده بقى true، الشخصية تمشي
+        if (isWalking)
+        {
+            // الحركة ناحية اليمين (ممكن تغير Vector2.right لـ Vector2.left لو عايزه يمشي شمال)
+            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            string[] dialogue = { "Red Riding Hood: ..Um, hello? What exactly are you?",
-                                  "Bobby: I'm Bobby! I'm just a guy. Do you know a way outta here?",
-                                  "Red Riding Hood: Shoot, I was about to ask the same thing.",
-                                  "You came from the surface, right? I've been trying to leave here since forever..",
-                                  "Folks down here say that the way out is by finding something called..",
-                                  "Uhm..'The Eternal Dahlia', I think - or something like that.",
-                                  "Bobby: Oh? Well..my eyesight's absolutely terrible in this darkness.",
-                                  "You wanna come along? Two pairs of eyes better than one and all that?",
-                                  "Red Riding Hood: Guess so.. OK, um, lead the way."};
+            string[] dialogue = { "Nigger fuck off you fucking black "
+                                  };
 
-            // نتأكد إننا بننادي الدوال من الـ dialogueManager
+            // إرسال الجمل وبدء الحوار
             dialogueManager.SetSentences(dialogue);
             dialogueManager.StartCoroutine(dialogueManager.TypeDialogue());
 
-            Destroy(GetComponent<BoxCollider2D>(), 5f);
+            // مسح الكولايدر عشان الحوار ميتعادش
+            Destroy(GetComponent<BoxCollider2D>());
+
+            // تشغيل الكوروتين اللي هيستنى الحوار يخلص
+            StartCoroutine(WaitAndWalk());
         }
+    }
+
+    // كوروتين بيراقب الحوار
+    IEnumerator WaitAndWalk()
+    {
+        // استنى ثانية صغيرة عشان نلحق نفتح صندوق الحوار
+        yield return new WaitForSeconds(0.5f);
+
+        // "افضل مستني طالما صندوق الحوار مفتوح"
+        while (dialogueManager.dialogueBox.activeInHierarchy)
+        {
+            yield return null; // انتظر للفريم اللي بعده
+        }
+
+        // أول ما الكود يوصل هنا معناه الحوار اتقفل
+        Debug.Log("Dialogue Finished! Walking away...");
+
+        // (اختياري) نقلب وش الشخصية عشان تمشي في الاتجاه الصح
+        if (sr != null) sr.flipX = false; // جرب تغيرها true لو مشيت بضهرها
+
+        // تفعيل الحركة
+        isWalking = true;
+
+        // (اختياري) تدمير الشخصية بعد 5 ثواني من المشي عشان متفضلش ماشية للمالا نهاية
+        Destroy(gameObject, 5f);
     }
 }

@@ -21,7 +21,7 @@ public class LaserTrapController : MonoBehaviour
             if (playerStats != null)
             {
                 // تأكد إن اسم الحالة هنا هو نفس اسم الحالة في الأنيميتور عندك
-                if (anim.GetCurrentAnimatorStateInfo(0).IsName("active traps") || anim.GetCurrentAnimatorStateInfo(0).IsName("Act   ive trap"))
+                if (anim.GetCurrentAnimatorStateInfo(0).IsName("active traps") || anim.GetCurrentAnimatorStateInfo(0).IsName("Active trap"))
                 {
                     playerStats.TakeDamage(damage);
                 }
