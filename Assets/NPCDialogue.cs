@@ -10,16 +10,17 @@ public class NPCDialogue : MonoBehaviour
     public float moveSpeed = 3f;
     private bool isWalking = false;
     private SpriteRenderer sr;
+    private Animator anim; // 1. متغير للأنيميشن
 
     [Header("Audio Settings")]
-    public AudioClip laughSound; // 1. ضع ملف صوت الضحك هنا في الـ Inspector
+    public AudioClip laughSound;
     private AudioSource audioSource;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>(); // 2. تعريف الأنيميتور
 
-        // 2. تجهيز مشغل الصوت أوتوماتيكياً
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.playOnAwake = false;
     }
@@ -36,10 +37,8 @@ public class NPCDialogue : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            // (تم استبدال النص بنقاط للتوضيح)
-            string[] dialogue = { "..." };
+            string[] dialogue = { "..." }; // ضع حوارك هنا
 
-            // 3. تشغيل صوت الضحك هنا
             if (laughSound != null)
             {
                 audioSource.PlayOneShot(laughSound);
@@ -58,6 +57,7 @@ public class NPCDialogue : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
 
+        // انتظار انتهاء الحوار
         while (dialogueManager.dialogueBox.activeInHierarchy)
         {
             yield return null;
@@ -65,7 +65,14 @@ public class NPCDialogue : MonoBehaviour
 
         Debug.Log("Dialogue Finished! Walking away...");
 
+        // ضبط اتجاه الوجه
         if (sr != null) sr.flipX = false;
+
+        // 3. تشغيل أنيميشن المشي
+        if (anim != null)
+        {
+            anim.SetBool("move", true);
+        }
 
         isWalking = true;
 

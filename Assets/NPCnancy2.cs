@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
+using UnityEngine.Video;
 
 public class NPCnancy2 : MonoBehaviour
 {
     public DialogueManager dialogueManager;
     private Animator anim;
+    public VideoPlayer videoPlayer;
+    private bool hasPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +34,19 @@ public class NPCnancy2 : MonoBehaviour
                 dialogueManager.SetSentences(dialogue);
                 dialogueManager.StartCoroutine(dialogueManager.TypeDialogue());
             }
-            
 
+            if (hasPlayed) return;
+
+            if (other.CompareTag("Player"))
+            {
+                hasPlayed = true;
+                videoPlayer.Play();
+            }
             // تدمير الكولايدر عشان الحوار ميتعادش تاني
             Destroy(GetComponent<BoxCollider2D>());
         }
     }
+
+
 }
+
